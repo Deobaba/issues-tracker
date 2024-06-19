@@ -37,3 +37,18 @@ import classNames from 'classnames';
  
  export default NavBar
  
+
+//  return (
+
+//     <nav className='flex space-x-6 mb-5 px-6 h-14 border items-center'>
+//       <Link href='/'><FaBug/></Link>
+//       <ul className='flex space-x-6'>
+//        {links.map(link =>
+//         <Link key={link.href} className={` ${link.href == currentPath ?'text-zinc-900 ' : 'text-zinc-500 '}text-zinc-500 hover:text-zinc-900  transition-colors`} href={link.href}>
+//            {link.label}
+//         </Link>
+//         )
+//        }
+//       </ul>
+//     </nav>
+//   )
